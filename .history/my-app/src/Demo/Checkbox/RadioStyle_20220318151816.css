@@ -1,0 +1,13 @@
+.radio-content {
+  margin: 50px;
+}
+.submit-button {
+  height: 50px;
+  width: 100px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.checkbox-content {
+  margin: 50px;
+}

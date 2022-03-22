@@ -1,0 +1,54 @@
+.game-board {
+  margin: 100px;
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  background-color: #fff;
+}
+
+.cell-game {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 5px 28px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.resetGame {
+  margin-left: 100px;
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  display: inline-block;
+  color: white;
+  background-color: #2cccff;
+}
+
+.is-x {
+  color: #2cccff;
+}
+
+.is-o {
+  color: #ff6651;
+}
+
+.content-caro {
+  position: relative;
+}
+
+.content-caro .alert-winner {
+  position: absolute;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-150%) translateX(-150%);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}

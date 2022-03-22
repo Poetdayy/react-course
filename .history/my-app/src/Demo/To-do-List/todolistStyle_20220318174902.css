@@ -1,0 +1,14 @@
+.inputToDoList {
+  margin: 100px;
+  margin-right: 3px;
+  border: solid 3px;
+}
+
+.buttonToDoList {
+  margin-top: 25px;
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  background-color: red;
+  font-weight: bold;
+}

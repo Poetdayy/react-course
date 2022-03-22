@@ -1,0 +1,10 @@
+.inputToDoList {
+  margin: 0px 25px;
+  border: solid 3px;
+}
+.buttonToDoList {
+  margin-top: 25px;
+  width: 50;
+  height: 30;
+  cursor: "pointer";
+}

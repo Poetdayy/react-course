@@ -1,0 +1,23 @@
+import React from "react";
+
+const YoutubeList = () => {
+  return (
+    <div className="youtube-list">
+      {data.map((value, index) => (
+        <YoutubeItem
+          key={index + 1}
+          image={
+            value.image ||
+            "https://agentestudio.com/uploads/post/image/69/main_how_to_design_404_page.png"
+          }
+          name={value.name}
+          author={value.author}
+          avt={value.avt}
+          className="abc"
+        ></YoutubeItem>
+      ))}
+    </div>
+  );
+};
+
+export default YoutubeList;

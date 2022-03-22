@@ -1,0 +1,6 @@
+.Youtube-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1);
+  grid-gap: 25px;
+  padding: 25px;
+}
